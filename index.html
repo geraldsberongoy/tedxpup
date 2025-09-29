@@ -16,50 +16,650 @@
     <link rel="stylesheet" href="assets/css/styles.css" />
     <link rel="stylesheet" href="assets/css/typography.css" />
   </head>
-<body>
+  <body>
     <header class="container">
-        <div>
-            <h1>Welcome to TedxPUP</h1>
-            <nav>
-                <div>logo</div>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#speakers">Speakers</a></li>
-                    <li><a href="#schedule">Schedule</a></li>
-                    <li><a href="#tickets">Tickets</a></li>
-                    <li><a href="#sponsors">Sponsors</a></li>
-                </ul>
-                <button>Get Tickets</button>
-            </nav>
-        </div>
+      <div>
+        <h1>Welcome to TedxPUP</h1>
+        <nav>
+          <div>logo</div>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#speakers">Speakers</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#tickets">Tickets</a></li>
+            <li><a href="#sponsors">Sponsors</a></li>
+          </ul>
+          <button>Get Tickets</button>
+        </nav>
+      </div>
     </header>
     <main>
-        
-        <section class="container" id="about">
-            <h2>About Us</h2>
-            <p>TedxPUP is an independently organized TED event at the Polytechnic University of the Philippines.</p>
-        </section>
-        <section class="container" id="speakers">
-            <h2>Speakers</h2>
-            <p>Meet our inspiring speakers who share their ideas worth spreading.</p>
-        </section>
-        <section class="container" id="schedule">
-            <h2>Schedule</h2>
-            <p>Check out the event schedule and plan your day.</p>
-        </section>
-        <section class="container" id="tickets">
-            <h2>Tickets</h2>
-            <p>Purchase your tickets for the event and secure your spot.</p>
-        </section>
-        <section class="container" id="sponsors">
-            <h2>Sponsors</h2>
-            <p>We thank our sponsors for their generous support.</p>
-        </section>
+      <section class="container" id="about">
+        <h2>About Us</h2>
+        <p>
+          TedxPUP is an independently organized TED event at the Polytechnic
+          University of the Philippines.
+        </p>
+      </section>
+      <section class="container" id="speakers">
+        <h2>Speakers</h2>
+        <p>
+          Meet our inspiring speakers who share their ideas worth spreading.
+        </p>
+      </section>
+      <section class="container" id="schedule">
+        <h2>Schedule</h2>
+        <p>Check out the event schedule and plan your day.</p>
+      </section>
+      <section class="container" id="tickets">
+        <h2>Tickets</h2>
+        <p>Purchase your tickets for the event and secure your spot.</p>
+      </section>
+      <section class="container" id="sponsors">
+        <h2>Sponsors</h2>
+        <p>We thank our sponsors for their generous support.</p>
+      </section>
     </main>
     <footer class="container">
-        <p>&copy; 2025 TedxPUP. All rights reserved.</p>
+      <p>&copy; 2025 TedxPUP. All rights reserved.</p>
     </footer>
 
+    <div class="container design-system">
+      <div
+        style="
+          border: 2px dashed var(--accent);
+          padding: 2rem;
+          margin: 2rem 0;
+          background: var(--glass);
+        "
+      >
+        <h2
+          style="color: var(--accent); text-align: center; margin-bottom: 3rem"
+        >
+          🎨 TEDxPUP Design System
+        </h2>
+
+        <!-- Typography Section -->
+        <div style="margin-bottom: 4rem">
+          <h3
+            style="
+              color: var(--accent);
+              margin-bottom: 2rem;
+              text-transform: uppercase;
+              letter-spacing: 2px;
+            "
+          >
+            📝 Typography
+          </h3>
+
+          <!-- Headings -->
+          <div
+            style="
+              margin-bottom: 3rem;
+              padding: 1.5rem;
+              border: 1px solid var(--glass-2);
+              border-radius: 8px;
+            "
+          >
+            <h4
+              style="
+                color: var(--muted);
+                margin-bottom: 1.5rem;
+                font-size: 14px;
+                text-transform: uppercase;
+              "
+            >
+              Heading Hierarchy
+            </h4>
+            <h1>H1 - Main Hero Title (clamp 36px-56px)</h1>
+            <h2>H2 - Section Headers (clamp 20px-28px)</h2>
+            <h3>H3 - Component Headings (default size)</h3>
+            <h4>H4 - Subsection Titles</h4>
+            <h5>H5 - Small Headings</h5>
+            <h6>H6 - Micro Headings</h6>
+          </div>
+
+          <!-- Body Text -->
+          <div
+            style="
+              margin-bottom: 3rem;
+              padding: 1.5rem;
+              border: 1px solid var(--glass-2);
+              border-radius: 8px;
+            "
+          >
+            <h4
+              style="
+                color: var(--muted);
+                margin-bottom: 1.5rem;
+                font-size: 14px;
+                text-transform: uppercase;
+              "
+            >
+              Body Text
+            </h4>
+            <p class="lead">
+              Lead Paragraph - Introduction paragraphs and important
+              descriptions (clamp 16px-20px)
+            </p>
+            <p>Regular Paragraph - Default body text with standard styling</p>
+            <p class="muted">Muted Text - Secondary information and metadata</p>
+            <p class="muted-small">
+              Muted Small - Caption text and small details
+            </p>
+          </div>
+
+          <!-- Font Sizes -->
+          <div
+            style="
+              margin-bottom: 3rem;
+              padding: 1.5rem;
+              border: 1px solid var(--glass-2);
+              border-radius: 8px;
+            "
+          >
+            <h4
+              style="
+                color: var(--muted);
+                margin-bottom: 1.5rem;
+                font-size: 14px;
+                text-transform: uppercase;
+              "
+            >
+              Font Sizes
+            </h4>
+            <p class="text-2xl">Text 2XL - 24px</p>
+            <p class="text-xl">Text XL - 20px</p>
+            <p class="text-lg">Text LG - 18px</p>
+            <p class="text-base">Text Base - 16px (default)</p>
+            <p class="text-sm">Text SM - 14px</p>
+            <p class="text-xs">Text XS - 12px</p>
+          </div>
+
+          <!-- Font Weights -->
+          <div
+            style="
+              margin-bottom: 3rem;
+              padding: 1.5rem;
+              border: 1px solid var(--glass-2);
+              border-radius: 8px;
+            "
+          >
+            <h4
+              style="
+                color: var(--muted);
+                margin-bottom: 1.5rem;
+                font-size: 14px;
+                text-transform: uppercase;
+              "
+            >
+              Font Weights
+            </h4>
+            <p class="font-light">Font Light - 300</p>
+            <p class="font-normal">Font Normal - 400</p>
+            <p class="font-medium">Font Medium - 500</p>
+            <p class="font-semibold">Font Semibold - 600</p>
+            <p class="font-bold">Font Bold - 700</p>
+            <p class="font-extrabold">Font Extra Bold - 800</p>
+          </div>
+
+          <!-- Text Alignment -->
+          <div
+            style="
+              margin-bottom: 3rem;
+              padding: 1.5rem;
+              border: 1px solid var(--glass-2);
+              border-radius: 8px;
+            "
+          >
+            <h4
+              style="
+                color: var(--muted);
+                margin-bottom: 1.5rem;
+                font-size: 14px;
+                text-transform: uppercase;
+              "
+            >
+              Text Alignment
+            </h4>
+            <p class="text-left">Text Left - Default left alignment</p>
+            <p class="text-center">Text Center - Centered alignment</p>
+            <p class="text-right">Text Right - Right aligned text</p>
+          </div>
+
+          <!-- Text Transform -->
+          <div
+            style="
+              margin-bottom: 3rem;
+              padding: 1.5rem;
+              border: 1px solid var(--glass-2);
+              border-radius: 8px;
+            "
+          >
+            <h4
+              style="
+                color: var(--muted);
+                margin-bottom: 1.5rem;
+                font-size: 14px;
+                text-transform: uppercase;
+              "
+            >
+              Text Transform
+            </h4>
+            <p class="text-uppercase">Text Uppercase - ALL CAPS TEXT</p>
+            <p class="text-lowercase">Text Lowercase - all lowercase text</p>
+            <p class="text-capitalize">
+              Text Capitalize - First Letter Capitalized
+            </p>
+          </div>
+        </div>
+
+        <!-- Color System -->
+        <div style="margin-bottom: 4rem">
+          <h3
+            style="
+              color: var(--accent);
+              margin-bottom: 2rem;
+              text-transform: uppercase;
+              letter-spacing: 2px;
+            "
+          >
+            🎨 Color System
+          </h3>
+
+          <div
+            style="
+              display: grid;
+              grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+              gap: 1rem;
+            "
+          >
+            <div
+              style="
+                padding: 1rem;
+                border-radius: 8px;
+                background: var(--bg);
+                border: 1px solid var(--glass-2);
+              "
+            >
+              <div
+                style="
+                  width: 100%;
+                  height: 40px;
+                  background: var(--bg);
+                  border-radius: 4px;
+                  margin-bottom: 0.5rem;
+                "
+              ></div>
+              <p style="font-size: 12px; margin: 0; color: var(--muted)">
+                --bg: #0f1115
+              </p>
+            </div>
+            <div
+              style="
+                padding: 1rem;
+                border-radius: 8px;
+                background: var(--card);
+                border: 1px solid var(--glass-2);
+              "
+            >
+              <div
+                style="
+                  width: 100%;
+                  height: 40px;
+                  background: var(--card);
+                  border-radius: 4px;
+                  margin-bottom: 0.5rem;
+                "
+              ></div>
+              <p style="font-size: 12px; margin: 0; color: var(--muted)">
+                --card: #0b0c0e
+              </p>
+            </div>
+            <div
+              style="
+                padding: 1rem;
+                border-radius: 8px;
+                background: var(--accent);
+                border: 1px solid var(--glass-2);
+              "
+            >
+              <div
+                style="
+                  width: 100%;
+                  height: 40px;
+                  background: var(--accent);
+                  border-radius: 4px;
+                  margin-bottom: 0.5rem;
+                "
+              ></div>
+              <p style="font-size: 12px; margin: 0; color: var(--white)">
+                --accent: #e62b1e
+              </p>
+            </div>
+            <div
+              style="
+                padding: 1rem;
+                border-radius: 8px;
+                background: var(--accent-light);
+                border: 1px solid var(--glass-2);
+              "
+            >
+              <div
+                style="
+                  width: 100%;
+                  height: 40px;
+                  background: var(--accent-light);
+                  border-radius: 4px;
+                  margin-bottom: 0.5rem;
+                "
+              ></div>
+              <p style="font-size: 12px; margin: 0; color: var(--white)">
+                --accent-light: #ff4d40
+              </p>
+            </div>
+            <div
+              style="
+                padding: 1rem;
+                border-radius: 8px;
+                background: var(--white);
+                border: 1px solid var(--glass-2);
+              "
+            >
+              <div
+                style="
+                  width: 100%;
+                  height: 40px;
+                  background: var(--white);
+                  border-radius: 4px;
+                  margin-bottom: 0.5rem;
+                "
+              ></div>
+              <p style="font-size: 12px; margin: 0; color: var(--bg)">
+                --white: #ffffff
+              </p>
+            </div>
+            <div
+              style="
+                padding: 1rem;
+                border-radius: 8px;
+                background: var(--muted);
+                border: 1px solid var(--glass-2);
+              "
+            >
+              <div
+                style="
+                  width: 100%;
+                  height: 40px;
+                  background: var(--muted);
+                  border-radius: 4px;
+                  margin-bottom: 0.5rem;
+                "
+              ></div>
+              <p style="font-size: 12px; margin: 0; color: var(--bg)">
+                --muted: #99a0aa
+              </p>
+            </div>
+            <div
+              style="
+                padding: 1rem;
+                border-radius: 8px;
+                background: var(--success);
+                border: 1px solid var(--glass-2);
+              "
+            >
+              <div
+                style="
+                  width: 100%;
+                  height: 40px;
+                  background: var(--success);
+                  border-radius: 4px;
+                  margin-bottom: 0.5rem;
+                "
+              ></div>
+              <p style="font-size: 12px; margin: 0; color: var(--white)">
+                --success: #10b981
+              </p>
+            </div>
+            <div
+              style="
+                padding: 1rem;
+                border-radius: 8px;
+                background: var(--warning);
+                border: 1px solid var(--glass-2);
+              "
+            >
+              <div
+                style="
+                  width: 100%;
+                  height: 40px;
+                  background: var(--warning);
+                  border-radius: 4px;
+                  margin-bottom: 0.5rem;
+                "
+              ></div>
+              <p style="font-size: 12px; margin: 0; color: var(--bg)">
+                --warning: #f59e0b
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Glass Effects -->
+        <div style="margin-bottom: 4rem">
+          <h3
+            style="
+              color: var(--accent);
+              margin-bottom: 2rem;
+              text-transform: uppercase;
+              letter-spacing: 2px;
+            "
+          >
+            ✨ Glass Effects
+          </h3>
+
+          <div
+            style="
+              display: grid;
+              grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+              gap: 1rem;
+            "
+          >
+            <div
+              style="
+                padding: 2rem;
+                border-radius: 12px;
+                background: var(--glass);
+                backdrop-filter: blur(10px);
+                border: 1px solid var(--glass-2);
+              "
+            >
+              <p
+                style="
+                  font-size: 12px;
+                  margin: 0;
+                  color: var(--muted);
+                  text-align: center;
+                "
+              >
+                --glass<br />rgba(255,255,255,0.03)
+              </p>
+            </div>
+            <div
+              style="
+                padding: 2rem;
+                border-radius: 12px;
+                background: var(--glass-2);
+                backdrop-filter: blur(10px);
+                border: 1px solid var(--white);
+              "
+            >
+              <p
+                style="
+                  font-size: 12px;
+                  margin: 0;
+                  color: var(--muted);
+                  text-align: center;
+                "
+              >
+                --glass-2<br />rgba(255,255,255,0.06)
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Shadows -->
+        <div style="margin-bottom: 4rem">
+          <h3
+            style="
+              color: var(--accent);
+              margin-bottom: 2rem;
+              text-transform: uppercase;
+              letter-spacing: 2px;
+            "
+          >
+            🌑 Shadow System
+          </h3>
+
+          <div
+            style="
+              display: grid;
+              grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+              gap: 1rem;
+            "
+          >
+            <div
+              style="
+                padding: 1.5rem;
+                background: var(--card);
+                border-radius: 8px;
+                box-shadow: var(--shadow-sm);
+              "
+            >
+              <p
+                style="
+                  font-size: 12px;
+                  margin: 0;
+                  color: var(--muted);
+                  text-align: center;
+                "
+              >
+                Shadow SM
+              </p>
+            </div>
+            <div
+              style="
+                padding: 1.5rem;
+                background: var(--card);
+                border-radius: 8px;
+                box-shadow: var(--shadow-md);
+              "
+            >
+              <p
+                style="
+                  font-size: 12px;
+                  margin: 0;
+                  color: var(--muted);
+                  text-align: center;
+                "
+              >
+                Shadow MD
+              </p>
+            </div>
+            <div
+              style="
+                padding: 1.5rem;
+                background: var(--card);
+                border-radius: 8px;
+                box-shadow: var(--shadow-lg);
+              "
+            >
+              <p
+                style="
+                  font-size: 12px;
+                  margin: 0;
+                  color: var(--muted);
+                  text-align: center;
+                "
+              >
+                Shadow LG
+              </p>
+            </div>
+            <div
+              style="
+                padding: 1.5rem;
+                background: var(--card);
+                border-radius: 8px;
+                box-shadow: var(--shadow-xl);
+              "
+            >
+              <p
+                style="
+                  font-size: 12px;
+                  margin: 0;
+                  color: var(--muted);
+                  text-align: center;
+                "
+              >
+                Shadow XL
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Usage Guidelines -->
+        <div style="margin-bottom: 2rem">
+          <h3
+            style="
+              color: var(--accent);
+              margin-bottom: 2rem;
+              text-transform: uppercase;
+              letter-spacing: 2px;
+            "
+          >
+            📋 Usage Guidelines
+          </h3>
+
+          <div
+            style="
+              padding: 1.5rem;
+              border: 1px solid var(--glass-2);
+              border-radius: 8px;
+              background: var(--glass);
+            "
+          >
+            <ul style="color: var(--muted); margin: 0; padding-left: 1.5rem">
+              <li>
+                Use <strong>H1</strong> for main page titles and hero headlines
+              </li>
+              <li>
+                Use <strong>H2</strong> for section titles and main content
+                headings
+              </li>
+              <li>
+                Use <strong>Lead paragraphs</strong> for important introductions
+              </li>
+              <li>
+                Use <strong>--accent</strong> color sparingly for highlights and
+                CTAs
+              </li>
+              <li>
+                Use <strong>--muted</strong> color for secondary information
+              </li>
+              <li>
+                Apply <strong>glass effects</strong> for modern, layered UI
+                components
+              </li>
+              <li>
+                Use <strong>appropriate shadows</strong> to create depth
+                hierarchy
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
